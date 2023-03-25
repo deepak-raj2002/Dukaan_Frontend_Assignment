@@ -10,7 +10,7 @@ const Features=()=>{
           <div className="features">
             <div className="feature-details">
               <div className="img">
-               <img src={search}/>
+               <img src={search}  alt='img'/>
               </div>
               <div className="feature-heading">
                 Search
@@ -21,9 +21,9 @@ const Features=()=>{
             </div>
             <div className="feature-details">
               <div className="img">
-               <img src={select}/>
+               <img src={select} alt='img'/>
               </div>
-              <div className="feature-heading">
+              <div className="feature-heading"> 
                 Select
               </div>
               <div className="description">
@@ -32,7 +32,7 @@ const Features=()=>{
             </div>
             <div className="feature-details">
               <div className="img">
-               <img src={stand}/>
+               <img src={stand} alt='img'/>
               </div>
               <div className="feature-heading">
                 Stand out

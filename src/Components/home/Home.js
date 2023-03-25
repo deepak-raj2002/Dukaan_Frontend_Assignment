@@ -14,10 +14,6 @@ const Home = () => {
         setName('');
     }
 
-    const flashMessage=()=>{
-       setflash('Copied')
-       console.log(flash);
-    };
 
     return (
         <>
@@ -26,7 +22,7 @@ const Home = () => {
                     <div className="header-container">
                         <div className="logo-with-btns">
                             <div className="logo">
-                                <img src={Dukaan_logo} className='logo-img' />
+                                <img src={Dukaan_logo} className='logo-img'  alt='img'/>
                             </div>
                             <div className="sign-pc">
                                 <div className="sign-in">Sign in</div>
@@ -34,7 +30,7 @@ const Home = () => {
                                 <button type="submit" className="btns">Dukaan for PC</button>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
                

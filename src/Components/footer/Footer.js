@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='footer-container-copyright'>
                 <div className='footer-container-items'>
                     <div className='logos'>
-                        <img src={Dukaan_logo} className='logoimg'/>
+                        <img src={Dukaan_logo} className='logoimg'  alt='img'/>
                     </div>
                     <div className='footer-items'>
                         <div className='each-item'>
@@ -21,7 +21,7 @@ const Footer = () => {
                             <div className='items'>Blog</div>
                         </div>
                         <div className='each-item'>
-                            <div className='items'>Privacy</div>
+                            <div className='items'>Privacy</div> 
                             <div className='items'>Banned items</div>
                         </div>
                         <div className='each-item'>
@@ -41,7 +41,7 @@ const Footer = () => {
                       Dukaan 2020,All rights reserved
                     </div>
                     <div className='made'>
-                     <img src={flag} className='flagimg' />
+                     <img src={flag} className='flagimg'  alt='img'/>
                     </div>
                 </div>
             </div>

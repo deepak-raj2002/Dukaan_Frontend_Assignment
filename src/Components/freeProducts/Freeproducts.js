@@ -14,10 +14,10 @@ const FreeProducts=()=>{
         <div className='functions'>
             <div className='cards'>
                 <div className='imgs'>
-                <img src={Privacy} className='immg'/>
+                <img src={Privacy} className='immg'  alt='img'/>
                 </div>
                 <div className='Headings'>
-                    Privacy Policy Generator
+                    Privacy Policy Generator 
                 </div>
                 <div className='abouts'>
                 Stock your store with 100s of products and start selling to customers in minutes, without the hassle of inventory or packaging.
@@ -25,7 +25,7 @@ const FreeProducts=()=>{
             </div>
             <div className='cards'>
                 <div className='imgs'>
-                <img src={Terms} className='immg'/>
+                <img src={Terms} className='immg'  alt='img'/>
                 </div>
                 <div className='Headings'>
                     Terms & Conditions Generator
@@ -36,7 +36,7 @@ const FreeProducts=()=>{
             </div>
             <div className='cards'>
                 <div className='imgs'>
-                <img src={Domain} className='immg'/>
+                <img src={Domain} className='immg'  alt='img'/>
                 </div>
                 <div className='Headings'>
                     Domain Name Generator
@@ -47,7 +47,7 @@ const FreeProducts=()=>{
             </div>
             <div className='cards'>
                 <div className='imgs'>
-                 <img src={Invoice} className='immg'/>
+                 <img src={Invoice} className='immg'  alt='img'/>
                 </div> 
                 <div className='Headings'>
                     Invoice Generator
