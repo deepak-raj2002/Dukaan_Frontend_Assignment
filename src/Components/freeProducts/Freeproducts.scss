@@ -1,0 +1,47 @@
+.free-products{
+ .free-heading{
+   text-align: center;
+   font-family: semibold;
+   font-size: 32px;
+   margin: 3rem 0;
+    }
+    .free-products-details{
+    
+      display: flex;
+      justify-content: center;
+      align-self: center;
+        .functions{
+            width: 80%;
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+        .cards{
+            width: 90%;
+            margin-bottom: 2rem;
+            .imgs{
+             .immg{
+                width: 100%;
+             }
+            }
+            .Headings{
+             font-family: mediums;
+             font-size: 18px;
+             margin-top: 1rem;
+             margin-bottom: 0.5rem;
+            }
+            .abouts{
+            font-family: regulars;
+            font-size: 14px;
+            }
+        }
+    }
+}
+}
+
+@media screen and (width<=560px) {
+  .functions{
+    display: grid;
+    grid-template-columns: 98% !important;
+    justify-content: center;
+  }
+
+}

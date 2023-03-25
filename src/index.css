@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face{
+  font-family: mediums;
+  src: url(./fonts/galanogrotesque-medium.otf);
+  font-style: normal;
+}
+
+@font-face{
+  font-family: regulars;
+  src: url(./fonts/galanogrotesque-regular.otf);
+}
+
+@font-face{
+  font-family: semibold;
+  src: url(./fonts/galanogrotesque-semibold.otf);
+}

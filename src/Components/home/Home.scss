@@ -1,0 +1,489 @@
+.home-container {   
+    .header-container {
+        background-color: #146EB4;
+        height: 33vh;
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        .logo-with-btns {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin-top: 1rem;
+
+            .logo {
+                
+                width: 40%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 35px;
+
+                .logo-img {
+                    width: 22%;
+                    height: 90%;
+                }
+            }
+
+            .sign-pc {
+                width: 22%;
+                height: 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .sign-in {
+                    color: white;
+                    font-family: regulars;
+                    cursor: pointer;
+
+                }
+
+                .pc-btns {
+                    width: 60%;
+
+                    .btns {
+                        height: 40px;
+                        width: 100%;
+                        border-radius: 5px;
+                        border: none;
+                        outline: none;
+                        font-family: mediums;
+                        cursor: pointer;
+                        color: #146EB4;
+                        font-size: 15px;
+                        font-weight: 500;
+                        background-color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    .slogan-container {
+        background-color: #FAFAFA;
+        display: flex;
+        justify-content: center;
+        height: 200vh;
+
+        .slogan-detail-container {
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            border-radius: 5px;
+            position: absolute;
+            top: 6.5rem;
+            background-color: white;
+
+            .detail-container {
+                width: 70%;
+
+                .heading {
+                    font-family: semibold;
+                    font-size: 32px;
+                    margin-top: 2rem;
+                }
+
+                .about {
+                    font-family: regulars;
+                    font-size: 19px;
+                    color: #4D4D4D;
+                    margin: 10px 0;
+                }
+
+                .input {
+                    margin-top: 1rem;
+
+                    .label {
+                        font-size: 15px;
+                        font-family: mediums;
+                        margin-bottom: 7px;
+                    }
+
+                    .input-with-delete {
+                        border: 1px solid #D9D9D9;
+                        width: 35%;
+                        display: flex;
+                        height: 30px;
+                        padding: 2px;
+                        margin-top: 6px;
+                        border-radius: 4px;
+
+                        .input-value {
+                            width: 100%;
+                            padding: 4px;
+                            outline: none;
+                            border: none;
+                            font-family: regulars;
+                        }
+
+                        .cross {
+                            margin: auto;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .slogan-generate {
+                    width: 30%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 35px;
+                    border-radius: 3px;
+                    font-family: mediums;
+                    color: white;
+                    background-color: #146EB4;
+                    margin: 2rem 0;
+                    cursor: pointer;
+                }
+
+                .horizontal {
+                    color: #D9D9D9;
+
+                }
+
+                .btn-with-slogan-number {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 2rem;
+                    margin-bottom: 1.5rem;
+
+                    .text {
+                        font-family: semibold;
+                        font-size: 17px;
+                        width: 80%
+                    }
+
+                    .btnns {
+                        width: 20%;
+
+                        .download-btn {
+                            width: 100%;
+                            border: 2px solid #146EB4;
+                            height: 35px;
+                            border-radius: 4px;
+                            font-weight: bold;
+                            margin-right: 20px;
+                            color: #146EB4;
+                            font-family: mediums;
+                            background-color: white;
+                            cursor: pointer;
+                        }
+
+                    }
+
+                }
+
+                .slogans {
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                    margin-bottom: 1rem;
+                    font-family: mediums;
+
+                    .slogan1 {
+                        width: 95%;
+                        margin: 1rem 0;
+                        padding: 10px;
+                        height: 4rem;
+                        background-color: #F2F2F2;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        .hide{
+                            display: none;
+                            background-color: #4D4D4D;
+                            width: 45%;
+                            height: 35px;
+                            font-family: mediums;
+                            border-radius: 5px;
+                            text-align: center;
+                            margin-top: 0.5rem;
+                        }
+                    }
+                    .msg:hover+ .hide{
+                        color: white;
+                        display: block;
+                    }
+                    
+
+                    .slogan2 {
+                        width: 95%;
+                        margin: 1rem 0;
+                        padding: 10px;
+                        margin-left: 1rem;
+                        height: 4rem;
+                        background-color: #F2F2F2;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        .hide{
+                            display: none;
+                            background-color: #4D4D4D;
+                            width: 45%;
+                            height: 35px;
+                            font-family: mediums;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+
+            .numbers-next {
+                display: flex;
+                justify-content: end;
+                font-family: regulars;
+                color: #146EB4;
+                margin-bottom: 2rem;
+
+                .num {
+                    width: 60%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .numbers {
+                        width: 40%;
+                        display: flex;
+                        justify-content: space-evenly;
+                        cursor: pointer;
+
+                        .one {
+                            border-radius: 50%;
+                            padding: 2px;
+                            width: 10%;
+                            background-color: #146EB4;
+                            color: white;
+                            text-align: center;
+                        }
+
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media  screen and (width<=1400px) {
+    .slogan-container{
+        height: 233vh !important;
+    }
+}
+
+@media screen and (width <=1150px) {
+
+    .logo-img {
+        width: 30% !important;
+    }
+
+    .sign-pc {
+        width: 26% !important;
+    }
+}
+
+@media screen and (width <=980px) {
+
+    .logo-img {
+        width: 40% !important;
+    }
+
+    .sign-pc {
+        width: 30% !important;
+    }
+    .slogan-container{
+        height: 92vh !important;
+        padding: 0 !important;
+    }
+}
+
+@media screen and (width <=850px) {
+
+    .logo-img {
+        width: 45% !important;
+    }
+
+    .sign-pc {
+        width: 34% !important;
+    }
+
+    .slogan-generate {
+        width: 35% !important;
+    }
+    .input-with-delete{
+        width: 45% !important ;
+    }
+    .btnns{
+        width: 40% !important;
+    }
+
+        .numbers {
+            width: 50% !important;
+    }
+    .slogan-container{
+        height: 110vh !important;
+        padding: 0 !important;
+    }
+}
+
+@media screen and (width <=770px) {
+
+    .logo-img {
+        width: 50% !important;
+    }
+
+    .sign-pc {
+        width: 38% !important;
+    }
+    .heading {
+        font-size: 30px !important;
+    }
+    .about {
+        font-size: 16px !important;
+    }
+    .slogan-generate {
+        width: 40% !important;
+    }
+    .text {
+        font-size: 15px !important;
+    }
+    .numbers {
+        width: 55% !important;
+}
+.slogan-container{
+    
+    height: 130vh !important;
+}
+    
+}
+
+@media screen and (width <=660px) {
+
+    .logo-img {
+        width: 53% !important;
+    }
+
+    .sign-pc {
+        width: 45% !important;
+    }
+    .slogan-generate {
+        width: 45% !important;
+    }
+    .heading {
+        font-size: 26px !important;
+    }
+    .about{
+        font-size: 17px !important;
+    }
+    .input-with-delete{
+        width: 50% !important ;
+    }
+    .slogans {
+        font-size: 14px !important;
+    }
+    .numbers {
+        width: 60% !important;
+}
+.slogan-container{
+    // height: 218vh !important;
+}
+}
+
+
+@media screen and (width <=560px) {
+
+    .logo-img {
+        width: 65% !important;
+    }
+
+    .sign-pc {
+        width: 60% !important;
+    }
+    .slogan-generate {
+        width: 60% !important;
+    }
+    .input-with-delete{
+        width: 55% !important ;
+    }
+    .slogans {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 98% !important;
+        font-size: 14px !important;
+        .slogan1{
+            position: relative !important;
+            .hide{
+                width: 80% !important;
+                height: 30px !important;
+                border: none;
+                background-color: none !important;
+                position: absolute;
+            }
+        }
+        .slogan2 {
+            margin: 0 0 !important;
+            margin-left: 0 !important;
+            .hide{
+                width: 80% !important;
+                height: 30px !important;
+            }
+        }
+    }
+    .num {
+        width: 100% !important;
+}
+.slogan-container{
+    padding-bottom: 79rem !important;
+}
+}
+
+@media screen and (width<=500px) {
+    .slogan-container{ 
+        padding-bottom: 62rem !important;
+    }
+}
+@media screen and (width <=420px) {
+    .slogan-container{
+        padding-bottom: 24rem !important;
+    }
+    .logo-img {
+        width: 85% !important;
+        // height: 35px !important;
+    }
+
+    .sign-pc {
+        width: 80% !important;
+        font-size: 14px !important;
+    }
+    .heading {
+        font-size: 22px !important;
+    }
+    .about {
+        font-size: 14px !important;
+    }
+    .slogan-generate {
+        width: 75% !important;
+    }
+    .input-with-delete{
+        width: 95% !important ;
+    }
+    .btnns{
+        width: 45% !important;
+    }
+   
+}
+
+@media screen and (width<=415px) {
+    .slogan-container{
+       padding-bottom: 80rem !important;
+    }
+}
+
+@media screen and (width<=380px) {
+    .logo-img{
+        height: 25px !important;
+    }
+    .slogan-container{
+        padding-bottom: 89rem !important;
+    }
+    
+}

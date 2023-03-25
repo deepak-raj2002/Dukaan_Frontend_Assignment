@@ -1,0 +1,105 @@
+.footer-container{
+    background-color:#1A181E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    .footer-container-copyright{
+        margin-top: 3rem;
+        width: 80%;
+       .footer-container-items{
+        display: flex;
+            .logos{
+                width: 7rem;
+                .logoimg{
+                    width: 100%;
+                }
+            
+            }
+            .footer-items{
+                width: 90%;
+                display: flex;
+                justify-content: space-around;
+                .each-item{
+                    font-family: mediums;
+                    font-size: 16px;
+                    text-align: center;
+                    .items{
+                        margin-bottom: 1rem;
+                        cursor: pointer;
+                        .round{
+                            border-radius: 50%;
+                            background-color: white;
+                            color: black;
+                            width: 50%;
+                        }
+
+                    }
+                }
+            }
+        }
+        .copyright-made{
+            display: flex;
+            justify-content: space-between;
+            font-family: regulars;
+            font-size: 14px;
+            margin-bottom: 2rem;
+        }
+    }
+}
+@media screen and (Width<=1300px) {
+    .footer-container{
+        height: 50vh !important;
+        align-items: normal !important;
+    }
+    
+}
+
+@media screen and (width<=950px) {
+    .footer-container{
+        height: 70vh !important;
+        align-items: normal !important;
+    }
+    
+} 
+@media screen and (width<=850px) {
+    .footer-container{
+        height: 65vh !important;
+        align-items: normal !important;
+    }
+    
+}
+@media screen and (width<=560px) {
+    .footer-container{
+    height: 50vh !important;
+    align-items: normal !important;
+    
+    .footer-container-items{
+        display: inline !important;
+   .logos{
+    visibility: hidden;
+   }
+    .footer-items{
+        width: 100%;
+        .each-item{
+            font-size: 12px !important;
+        }
+
+    }}
+}
+.copyright-made{
+    font-size: 12px;
+}
+}
+
+@media screen and (width<=420px) {
+
+    .footer-items{
+        width: 100% !important;
+        .each-item{
+            font-size: 10px !important;
+        }
+
+    }
+}
+

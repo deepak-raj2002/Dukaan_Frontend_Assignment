@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face{
+  font-family: deepak;
+  src: url(./fonts/galanogrotesque-medium.otf) format("opentype");
+  font-style: normal;
+}
+
+@font-face{
+  font-family: galanogrotesque-regular;
+  src: url(./fonts/galanogrotesque-regular.otf);
+}
+
+@font-face{
+  font-family: 'galanogrotesque-semibold';
+  src: url('./fonts/galanogrotesque-semibold.otf');
+}
+
